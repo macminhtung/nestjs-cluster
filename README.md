@@ -18,20 +18,23 @@ $ MODE=dual node index.js
 ```
 
 ## RESULT
-Model Name:	iMac
-Model Identifier:	iMac21,2
-Chip:	Apple M1
-Total Number of Cores:	8 (4 performance and 4 efficiency)
-Memory:	8 GB
+```bash
+$ Model Name:	iMac
+$ Model Identifier:	iMac21,2
+$ Chip:	Apple M1
+$ Total Number of Cores:	8 (4 performance and 4 efficiency)
+$ Memory:	8 GB
+```
 
 ```bash
 $ MODE=single node index.js
-$ ==> START [3001]:  Thu Aug 10 2023 15:23:05 GMT+0700 <==
-$ ==> END [3001]: 5441ms <==
-
+$ START [3001]:  Thu Aug 10 2023 15:23:05 GMT+0700
+$ END [3001]: 5441ms 
 $ MODE=double node index.js
-$ ==> START [3001]:  Thu Aug 10 2023 15:23:27 GMT+0700 <==
-$ ==> START [3002]:  Thu Aug 10 2023 15:23:27 GMT+0700 <==
-$ ==> END [3001]: 12176ms <==
-$ ==> END [3002]: 12231ms <==
+$ START [3001]:  Thu Aug 10 2023 15:23:27 GMT+0700
+$ START [3002]:  Thu Aug 10 2023 15:23:27 GMT+0700
+$ END [3001]: 12176ms
+$ END [3002]: 12231ms
+
+*** CONCLUSION: Performance will decrease when dealing with multi-node version ***
 ```
