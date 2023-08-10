@@ -36,5 +36,5 @@ $ START [3002]:  Thu Aug 10 2023 15:23:27 GMT+0700
 $ END [3001]: 12176ms
 $ END [3002]: 12231ms
 
-*** CONCLUSION: Performance will decrease when dealing with multi-node version ***
+*** CONCLUSION: Performance will decrease when dealing with multi-node instance ***
 ```
